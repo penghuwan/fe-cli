@@ -1,0 +1,35 @@
+{
+  "name": "fe-cli",
+  "version": "1.0.0",
+  "description": "cli for front end",
+  "main": "index.js",
+  "dependencies": {
+    "co-body": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "koa": "^2.11.0",
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penghuwan/fe-cli.git"
+  },
+  "keywords": [
+    "node",
+    "webpack",
+    "koa",
+    "js",
+    "cli"
+  ],
+  "author": "penghuwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penghuwan/fe-cli/issues"
+  },
+  "homepage": "https://github.com/penghuwan/fe-cli#readme"
+}
